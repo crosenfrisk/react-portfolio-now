@@ -1,9 +1,9 @@
-import React from "react";
+// import React from "react";
 
-function Content() {
-    return (
-        <div>Content for now</div>
-      )
-}
+// function Content() {
+//     return (
+//         <div>Content for now</div>
+//       )
+// }
 
-export default Content;
+// export default Content;

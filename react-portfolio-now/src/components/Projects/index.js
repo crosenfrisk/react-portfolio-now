@@ -3,40 +3,34 @@
 // const PhotoList = ({ category }) => {
 //   const [photos] = useState([
 //     {
-//       name: '',
-//       category: '',
-//       description:
-//         ''
+//       name: 'Budget Tracker',
+//       category: 'Mobile PWA',
+//       description: 'Users can track budget and expenses while on the go!'
 //     },
 //     {
-//       name: '',
-//       category: '',
-//       description:
-//         ''
+//       name: 'express-yourself',
+//       category: 'CMS Fullstack Website',
+//       description: 'Users create a profile that allows them to write, edit, and delete posts and comments.'
 //     },
 //     {
-//       name: '',
-//       category: '',
-//       description:
-//         ''
+//       name: 'NoSQL Social Media API',
+//       category: 'Back-end',
+//       description: 'Users can share their thoughts, create a friend's list, and react to friend's thoughts.'
 //     },
 //     {
-//       name: '',
-//       category: '',
-//       description:
-//         ''
+//       name: 'Popcorn!',
+//       category: 'Application',
+//       description: 'Users choose a movie or a genre to watch, or add to a watchlist for later viewing.'
 //     },
 //     {
-//       name: '',
-//       category: '',
-//       description:
-//         ''
+//       name: 'Run Buddy',
+//       category: 'Website',
+//       description: 'Client website.'
 //     },
 //     {
-//       name: '',
-//       category: '',
-//       description:
-//         ''
+//       name: 'Weather Dashboard',
+//       category: 'Application',
+//       description: 'Users can view weather based on city input.'
 //     }
 //   ]);
 

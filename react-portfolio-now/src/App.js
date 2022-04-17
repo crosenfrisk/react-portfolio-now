@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import Content from "./components/Content";
+// import Content from './components/Content';
+import PortfolioContainer from "./components/PortfolioContainer";
 import "./App.css";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       <div>
         
         <main>
-          <Content></Content>
+          {/* <Content></Content> */}
+          <PortfolioContainer></PortfolioContainer>
         </main>
       </div>
     </div>
