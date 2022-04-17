@@ -1,29 +1,33 @@
-const Project = (props) => {
+const Projects = (props) => {
 
-    const { title, image, technologies, deployed, github } = props.project
+    const { name, image, technologies, deployed, repository } = props.project
   
     return (
       <section className='project'>
         <img src={image} alt="" className='screenshot'/>
-        <div className='project-text'>
-          <div className='title-line'>
-            <h2>{title}</h2>
+        
+        <div>
+          <div>
+            <h2>{name}</h2>
           </div>
+
           <div className='tech-line'>
-         
             <p>{technologies}</p>
           </div>
-          <div className='link-line'>
+
+          <div className='project-links'>
             <p>
               <a href={deployed}>View Live</a>
             </p>
+
             <p>
-              <a href={github}>Repo</a>
+              <a href={repository}>GitHub</a>
             </p>
+
           </div>
         </div>
       </section>
     );
   }
   
-  export default Project
+  export default Projects;
