@@ -1,13 +1,35 @@
 import React from "react";
 
 function Resume() {
-  // add resume
   return (
-    <section id="resume-section">
-      <h2>Fullstack Developer</h2>
-      <h3>Current Proficiencies</h3>
 
-      <div>
+    <section className="resume-section">
+
+      <div id="resume-title">
+        <h2>
+          Full Stack Developer</h2>
+      </div>
+
+      <div id="resume-link">
+        <p>
+          <em>
+            <a
+              href="https://bit.ly/3vmKanT"
+              target="_blank"
+              rel="noopener noreferrer"
+            > Download my resume here.
+            </a>
+          </em>
+        </p>
+      </div>
+
+      <div id="resume-subtitle">
+        <h3>
+            Current Proficiencies
+        </h3>
+      </div>
+
+      <div id="resume-div">
         <h4>Programming Languages</h4>
         <ul>
           <li>HTML5</li>
@@ -17,7 +39,7 @@ function Resume() {
         </ul>
       </div>
 
-      <div>
+      <div id="resume-div">
         <h4>APIs</h4>
         <ul>
           <li>REST APIs</li>
@@ -26,7 +48,7 @@ function Resume() {
         </ul>
       </div>
 
-      <div>
+      <div id="resume-div">
         <h4>Databases</h4>
         <ul>
           <li>MongoDB</li>
@@ -35,7 +57,7 @@ function Resume() {
         </ul>
       </div>
 
-      <div>
+      <div id="resume-div">
         <h4>Environments, Libraries, and Frameworks</h4>
         <ul>
           <li>Bootstrap</li>
@@ -46,7 +68,7 @@ function Resume() {
         </ul>
       </div>
 
-      <div>
+      <div id="resume-div">
         <h4>ORM | Object Relational Mappers</h4>
         <ul>
           <li>Mongoose</li>
@@ -54,27 +76,14 @@ function Resume() {
         </ul>
       </div>
 
-      <div>
+      <div id="resume-div">
         <h4>Additional Technologies</h4>
         <ul>
-          <li>Bulma - An open source framework, comparative to Bootstrap. </li>
+          <li>Bulma</li>
           <li>
-            Heroku - A complete development and deployment environment for
-            online applications.
+            Heroku
           </li>
         </ul>
-      </div>
-
-      <div>
-        <p id="resume-link">
-          Download my full resume
-          <em>
-            <a href="https://bit.ly/3vmKanT" target="_blank">
-              here
-            </a>
-            .
-          </em>
-        </p>
       </div>
     </section>
   );

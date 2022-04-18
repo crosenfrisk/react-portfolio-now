@@ -2,6 +2,8 @@
  --primary-color: #52718d;
  --secondary-color: #d0a560;
  --tertiary-color: black;
+ --quaternary-color: #30526a;
+ --quinary-color: #adbcb3;
 }
 
 a {
@@ -27,16 +29,20 @@ code {
   src: url('../src/assets/fonts/SquarePeg-Regular.ttf');
 }
 
+/* Header and Navigation */
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  position: relative;
-  top: 25px;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 header h1 {
   display:grid;
+  margin: .5em 0 .5em 0;
   justify-content: space-around;
   font-family: Square-Peg;
   font-size: 5em;
@@ -44,13 +50,17 @@ header h1 {
   background-color: var(--secondary-color);
   border-radius: 5px;
   padding: 10px;
-  width: 90%
+  width: 100%;
 }
 
-h1 { font-family: Square-Peg;
-  font-size: 2em;
+h1 .developer-name
+{ font-family: Square-Peg;
+  background-color: #d0a560;
+  font-size: 1.5em;
+  justify-content: center;
   text-align: center;
   margin-left: 5px;
+  font-style: italic;
 }
 
 li {
@@ -58,25 +68,44 @@ li {
 }
 
 .nav-item:link {
-  color: var(black);
+  color: var(--quaternary-color);
 }
 
-.nav-item:link:hover{
-  opacity: 50%;
+.nav-item:hover{
+  background-color: var(--quinary-color);
+  color:var(--primary-color);
+  opacity: 75%;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .nav-link:active {
-  color: var(--secondary-color)
+  color: var(--quaternary-color);
 }
 
 .nav-tabs{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: .5em 0 .5em 0;
+    font-size: larger;
+    padding: 5px;
 }
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5em 0;
+}
+
+/* Content Sections */
+
+/*--->/* About Me */
 
 section .about-me{
   display: flex;
+  margin: 20px;
   padding: 10px;
   justify-content: center;
   flex-direction: column;
@@ -85,22 +114,25 @@ section .about-me{
 
 .about-you{
   text-align: center;
+  font-family: square-peg;
+  font-size: 2em;
 }
 
-#contact-section {
+/*--->//* Contact */
+#contact-section, h1 {
   display:flex;
   padding: 10px;
   justify-content: center;
   flex-direction:column;
   font-family: square-peg;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   font-weight: bolder;
 }
 
 input{
- background-color: #d0a560;
- opacity: 50%;
+ background-color: #52718d;
+ opacity: 25%;
  padding: 10px;
  font-size: 1;
  height: 1.5em;
@@ -128,9 +160,165 @@ textarea{
   display: flex;
   flex-direction: column;
   line-height: 2em;
-  margin: 1em;
+  margin: .5em;
 }
 
 button {
   line-height: 2em;
+  background-color: var(--secondary-color);
+  opacity: 75%;
+}
+
+/*--->//* Portfolio Section*/
+
+/* .screenshot {
+  max-width: 50%;
+  mask-position: relative;
+  align-items: center;
+} */
+
+.portfolio .project {
+  width: 75%;
+  margin: 4em auto;
+  font-size: .75em;
+  justify-content: center;
+}
+
+.project {
+  background-color: var(--quinary-color);
+  border-color: var(--tertiary-color);
+  border-width: 1px;
+  max-width: 75%;
+}
+
+.project h2 {
+  align-content: center;
+  text-align: center;
+}
+
+.project img {
+  width: 45vw;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.project-text div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1em .75em;
+}
+
+.tech-line{
+  text-align: center;
+}
+
+.project-links{
+  text-align: center;
+  background-color:rgb(215, 223, 218);
+}
+
+.project-links a:hover{
+  text-align: center;
+  color:#30526a;
+  background-color:rgb(220, 223, 218);
+}
+
+.project-links a{
+ color:black;
+}
+
+
+/*--->//*Resume Section*/
+.resume-section {
+  background-color: var(--primary-color);
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+#resume-title {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#resume-subtitle{
+  margin-top: 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume-div h4 {
+  position: relative;
+  display: flex;
+  margin-left: 50px;
+  justify-content: left;
+  align-items: left;
+}
+
+#resume-section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#resume-div li {
+  position: relative;
+  display: flex;
+  margin: 10px;
+  justify-content: left;
+  align-items: left;
+}
+
+#resume-link a{
+  position: relative;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 12px;
+  font-family: square-peg;
+  font-size: 2em;
+  color: white;
+}
+#resume-link a:hover{
+color: var(--quinary-color)
+}
+
+/* Footer */
+
+footer {
+  height: -10em;
+  bottom: 0;
+  opacity: 80%;
+  position: sticky;
+  background-color: white;
+}
+
+footer .icon{
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.icon:hover{
+  background-color: var(--quinary-color);
+  border-radius: 5%;
+  opacity: 75%;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 300px) and (max-height: 850px) {
+  .projectItem{
+    width: 40%;
+    height: 50%;
+    padding-right: 8px;
+  }
 }
