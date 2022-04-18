@@ -9,7 +9,7 @@
 
 
   ## Preview
-  ![Claire Rosenfrisk's React Portfolio](/react-portfolio-now/src/assets/images/portfolioImage.png)
+  ![portfolioImage](https://user-images.githubusercontent.com/82235272/163822557-59cf5b1d-54c7-430d-9ca3-1428856075bf.png)
   [Deployed site](https://crosenfrisk.github.io/react-portfolio-now/)
 
 
@@ -62,5 +62,5 @@
   
   ## Questions
   If you have any questions about this project, please contact me directly at claire.rosenfrisk@gmail.com. You can view more of my work on 
-  ![GitHub](/react-portfolio-now/src/assets/icons/github-brands.svg) [My GitHub Profile](https://github.com/crosenfrisk).
+  ![github-brands](https://user-images.githubusercontent.com/82235272/163822753-9fc295d1-401e-4075-818a-50411addf6c9.svg) [My GitHub Profile](https://github.com/crosenfrisk).
 
