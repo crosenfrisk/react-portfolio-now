@@ -24,7 +24,6 @@ export default function PortfolioContainer() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    //TODO return default page add here
   }
     
 
