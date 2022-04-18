@@ -77,16 +77,30 @@ li {
   padding: 10px;
 }
 
-.nav-link{
+a.nav-link{
   color: var(--primary-color)
 }
 
-.nav-link:hover {
+a.nav-link:hover {
   color: var(--quaternary-color);
 }
 
-.nav-link-active {
-  color: var(white);
+a.nav-link-active {
+  color: var(--secondary-color);
+  opacity: 75%;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a.nav-link-active:hover {
+  color: var(--quaternary-color);
+  opacity: 75%;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .nav-tabs{
