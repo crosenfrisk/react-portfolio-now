@@ -69,7 +69,7 @@ function Resume() {
         <p id="resume-link">
           Download my full resume
           <em>
-            <a href="https://bit.ly/3vmKanT" target="_blank">
+            <a href="https://bit.ly/3vmKanT" target="_blank" rel="noopener noreferrer">
               here
             </a>
             .

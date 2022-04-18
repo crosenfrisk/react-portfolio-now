@@ -72,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Credits
 Canva.com for open source cover image, favicon, and design details.
 Chrome Extension: Eye Dropper for identifying hex codes for root:{} in index.css.
+Logo Facebook from [freepnglogos.com](https://www.freepnglogos.com/pics/logo-facebookpng)

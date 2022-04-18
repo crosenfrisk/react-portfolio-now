@@ -2,6 +2,8 @@
  --primary-color: #52718d;
  --secondary-color: #d0a560;
  --tertiary-color: black;
+ --quaternary-color: #30526a;
+ --quinary-color: #adbcb3;
 }
 
 a {
@@ -27,12 +29,14 @@ code {
   src: url('../src/assets/fonts/SquarePeg-Regular.ttf');
 }
 
+/* Header and Navigation */
+
 header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  position: relative;
-  top: 25px;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -44,13 +48,15 @@ header h1 {
   background-color: var(--secondary-color);
   border-radius: 5px;
   padding: 10px;
-  width: 90%
+  width: 90%;
 }
 
 h1 { font-family: Square-Peg;
-  font-size: 2em;
+  font-size: 3em;
+  justify-content: center;
   text-align: center;
   margin-left: 5px;
+  font-style: italic;
 }
 
 li {
@@ -58,25 +64,44 @@ li {
 }
 
 .nav-item:link {
-  color: var(black);
+  color: var(--quaternary-color);
 }
 
-.nav-item:link:hover{
-  opacity: 50%;
+.nav-item:hover{
+  background-color: var(--quinary-color);
+  color:var(--primary-color);
+  opacity: 75%;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .nav-link:active {
-  color: var(--secondary-color)
+  color: var(--quaternary-color);
 }
 
 .nav-tabs{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: .5em 0 .5em 0;
+    font-size: larger;
+    padding: 5px;
 }
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5em 0;
+}
+
+/* Content Sections */
+
+/* About Me */
 
 section .about-me{
   display: flex;
+  margin: 20px;
   padding: 10px;
   justify-content: center;
   flex-direction: column;
@@ -85,8 +110,11 @@ section .about-me{
 
 .about-you{
   text-align: center;
+  font-family: square-peg;
+  font-size: 2em;
 }
 
+/* Contact */
 #contact-section {
   display:flex;
   padding: 10px;
@@ -133,4 +161,39 @@ textarea{
 
 button {
   line-height: 2em;
+}
+
+/* Portfolio*/
+
+/* image .screenshot {
+  max-width: 90vw;
+} */
+
+/* Footer */
+
+footer {
+  height: -10em;
+  bottom: 0;
+  opacity: 75%;
+}
+
+footer .icon{
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.icon:hover{
+  background-color: var(--quinary-color);
+  border-radius: 5%;
+  opacity: 75%;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 300px) and (max-height: 850px) {
+  .projectItem{
+    width: 40%;
+    height: 50%;
+    padding-right: 8px;
+  }
 }

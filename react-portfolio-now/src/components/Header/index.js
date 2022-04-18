@@ -1,5 +1,4 @@
 import React from 'react'
-import coverImage from "../../assets/images/coverImagetransparent.png";
 import NavTabs from '../Nav/NavTabs';
 
 function Header(props) {
@@ -10,7 +9,6 @@ function Header(props) {
         <NavTabs           
         currentPage={props.currentPage}
         handlePageChange={props.handlePageChange}/>
-        <img src={coverImage} className="my-2" style={{ width: "90%" }} alt="cover" />
     </header>
   )
 }
