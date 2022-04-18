@@ -67,13 +67,9 @@ li {
   list-style: none;
 }
 
-.nav-item:link {
-  color: var(--quaternary-color);
-}
-
 .nav-item:hover{
   background-color: var(--quinary-color);
-  color:var(--primary-color);
+  color:var(--quaternary-color);
   opacity: 75%;
   height: auto;
   width: auto;
@@ -81,8 +77,16 @@ li {
   padding: 10px;
 }
 
-.nav-link:active {
+.nav-link{
+  color: var(--primary-color)
+}
+
+.nav-link:hover {
   color: var(--quaternary-color);
+}
+
+.nav-link-active {
+  color: var(white);
 }
 
 .nav-tabs{
