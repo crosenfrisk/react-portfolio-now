@@ -37,6 +37,8 @@
   * Chrome Extension: Eye Dropper used for identifying hex codes for root:{} in index.css.
   * This project used the create-react-app npm for initial set up. If you would like to learn more about the app you can review [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+  🎉 Thank you to [Johnathan Shields](https://github.com/agent-Shields/), [Harrison Armstrong](https://github.com/nightmarefails/) [Colin Bares](https://github.com/soundproofboot/) for advice and help with deployment to GH-pages/GH-branch.
+
 
   ## License
   ![License for README](https://img.shields.io/badge/license-MIT-green/)
