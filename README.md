@@ -10,6 +10,7 @@
 
   ## Preview
   ![Claire Rosenfrisk's React Portfolio](/react-portfolio-now/src/assets/images/portfolioImage.png)
+  [Deployed site](https://crosenfrisk.github.io/react-portfolio-now/)
 
 
   ## Table of Contents
@@ -61,5 +62,5 @@
   
   ## Questions
   If you have any questions about this project, please contact me directly at claire.rosenfrisk@gmail.com. You can view more of my work on 
-  ![GitHub](/react-portfolio-now/src/assets/icons/GitHub.png) [My GitHub Profile](https://github.com/crosenfrisk).
+  ![GitHub](/react-portfolio-now/src/assets/icons/github-brands.svg) [My GitHub Profile](https://github.com/crosenfrisk).
 
