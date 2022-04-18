@@ -71,14 +71,16 @@ const Portfolio = () => {
     },
   ];
 
-    return (
-
-      <div className='portfolio'>
-      {PROJECTS.map((project, i) => (
-        <Projects key={i} project={project}/>
-      ))}
+  return (
+    <div className="portfolio">
+      <div>
+        <h1>Projects</h1>
       </div>
-    )
-  }
+      {PROJECTS.map((project, i) => (
+        <Projects key={i} project={project} />
+      ))}
+    </div>
+  );
+};
 
 export default Portfolio;

@@ -2,7 +2,9 @@ const Projects = (props) => {
   const { name, image, technologies, deployed, repository } = props.project;
 
   return (
+
     <section className="project">
+      
       <div>
         <h2>{name}</h2>
       </div>
@@ -26,6 +28,7 @@ const Projects = (props) => {
         </div>
       </div>
     </section>
+
   );
 };
 

@@ -25,7 +25,6 @@ export default function PortfolioContainer() {
       return <Resume />;
     }
   }
-    
 
     const handlePageChange = (page) => setCurrentPage(page);
 

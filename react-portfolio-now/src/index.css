@@ -110,6 +110,18 @@ section .about-me{
   justify-content: center;
   flex-direction: column;
   text-align: left;
+  font-size: 1.5em;
+}
+
+.about h2 {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  text-align: left;
+  font-size: 3em;
+  font-family: Square-Peg;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-you{
@@ -171,17 +183,15 @@ button {
 
 /*--->//* Portfolio Section*/
 
-/* .screenshot {
-  max-width: 50%;
-  mask-position: relative;
-  align-items: center;
-} */
-
 .portfolio .project {
   width: 75%;
   margin: 4em auto;
   font-size: .75em;
   justify-content: center;
+}
+
+.portfolio h1{
+  font-size: 2.5em;
 }
 
 .project {
@@ -234,31 +244,38 @@ button {
 .resume-section {
   background-color: var(--primary-color);
   margin: 20px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
   color: white;
   position: relative;
+  padding-bottom: 50px;
+  padding-left: 20px;
 }
 
 #resume-title {
   margin-top: 20px;
+  margin-left: 20px;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
+
+
 #resume-subtitle{
   margin-top: 2px;
   position: relative;
+  margin-left: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 #resume-div h4 {
   position: relative;
   display: flex;
-  margin-left: 50px;
+  margin-left: 20px;
   justify-content: left;
   align-items: left;
 }
@@ -273,9 +290,9 @@ button {
 #resume-div li {
   position: relative;
   display: flex;
-  margin: 10px;
-  justify-content: left;
-  align-items: left;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 #resume-link a{
@@ -286,10 +303,10 @@ button {
   margin-top: 12px;
   font-family: square-peg;
   font-size: 2em;
-  color: white;
+  color: var(--quinary-color);
 }
 #resume-link a:hover{
-color: var(--quinary-color)
+color: white;
 }
 
 /* Footer */
