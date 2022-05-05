@@ -8,6 +8,7 @@ const Portfolio = () => {
   const popcorn = require("../../assets/screenshots/3.png");
   const runBuddy = require("../../assets/screenshots/4.png");
   const weatherDash = require("../../assets/screenshots/5.png");
+  const ritualApp = require('../../assets/screenshots/6.png');
 
   const PROJECTS = [
     {
@@ -69,6 +70,15 @@ const Portfolio = () => {
       deployed: "https://crosenfrisk.github.io/weather-dashboard/",
       repository: "https://github.com/crosenfrisk/weather-dashboard",
     },
+    {
+      name: "Ritaul",
+      image: ritualApp,
+      technologies: "React, MongoDB",
+      category: "Web and Mobile Application",
+      description: "Users can choose wellness activities and track their goals.",
+      deployed: "https://ritual-app-01.herokuapp.com/",
+      repository: "https://github.com/Metelak/Ritual",
+    }
   ];
 
   return (
