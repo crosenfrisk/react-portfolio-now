@@ -71,7 +71,7 @@ const Portfolio = () => {
       repository: "https://github.com/crosenfrisk/weather-dashboard",
     },
     {
-      name: "Ritaul",
+      name: "Ritual",
       image: ritualApp,
       technologies: "React, MongoDB",
       category: "Web and Mobile Application",
